@@ -1,0 +1,75 @@
+li {
+    color:blue;
+    background-color: gold;
+    }
+
+h1 {
+    color: grey;
+    background-color: cyan;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+#navbar {
+    background-color: red;
+    border-style: solid;
+    border-color: blueviolet;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar th{
+    border-style: solid;
+}
+body{
+    background-image: url(../img/gold-tile.png);
+}
+header{
+    background-color: blueviolet;
+    color: #FFEc51;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid #FFEc51
+}
+.navbar{
+    background-color: crimson;
+    border: solid #FFEc51;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+.navbar th{
+    border: solid #FFEc51;
+    padding: 5px;
+}    
+footer{
+    background-color: aqua;
+    color: crimson;
+    font-size: 12px;
+    border: 3px solid blueviolet;
+    padding-left: 5px;
+}
+.profile{
+    background-color: crimson;
+    text-align: center;
+}
+.even-row{
+    background-color:#FFEc51;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    color: blueviolet;
+    padding: 5px;
+    box-shadow:5px 5px 10px black;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.active{
+    background-color: whitesmoke;
+}
